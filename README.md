@@ -28,6 +28,7 @@ Based on faces within images, DCiFR reports results of four attributes: age, emo
 + Gender - Reports either man or woman.
 + Race - The software predicts the probability of falling into one of seven race categories: Asian, black, Indian, Latino/Hispanic, Middle Eastern, or white. The results show the racial category with the highest probability.
 
+More information on the attributes and how they are modeled can be found [here](https://pypi.org/project/deepface/). 
 
 ## Mode
 
