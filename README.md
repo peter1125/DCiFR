@@ -1,36 +1,49 @@
 # DCiFR
-DCiFR <Logo>
 
-DCiFR is a wrapper software allows you to run deep learning models to parse demographic characteristics from a picture. This open-source wrapper software written in Python has a GUI that will allow you to run complex models without any knowledge of coding. This includes functions from [deepface](https://github.com/serengil/deepface) and is built with [PyQT5](https://pypi.org/project/PyQt5/) to provide the GUI.
+![](https://github.com/peter1125/DCiFR/blob/main/logo.png)
+
+DCiFR (Demographic Characteristics in Facial Recognition) is a wrapper software allows you to run deep learning models to parse demographic characteristics from an image. This open-source wrapper software written in Python has a GUI that will allow you to run complex models without any knowledge of coding. This includes functions from [deepface](https://github.com/serengil/deepface) and is built with [PyQT5](https://pypi.org/project/PyQt5/) to provide the GUI.
 
 ## Getting Started
 
+Dependencies for running DCiFR include deepface, and PyQT5.
 
+Run
+```
+pip install deepface
+```
+and 
+```
+pip install PyQt5
+```
+to get started. 
 
 ## Attributes
 
-Based on faces within images, DCiFR reports results of four attributes: age, emotion, gender, and race. 
++ Age
 
-+ Age - Predicted age will fall between 0 - 100. 
++ Race
 
-+ Emotion - One of seven possible emotions: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral.
++ Gender
 
-+ Gender - Reports either man or woman.
++ Emotion
 
-+ Race - The software predicts the probability of falling into one of seven race categories: Asian, black, Indian, Latino/Hispanic, Middle Eastern, or white. The results show the racial category with the highest probability.
 
 ## Mode
 
-### Single Mode
+Two different modes are supported on DCiFR. 
 
-### Batch Mode
++ Single Mode: Upload and get the results for a single image. 
++ Batch Mode: Analysis of a multiple images at once. Select a folder to analyze in batch mode.
 
 
 ## Output
-
-CSV - dcifr_results.csv
+The results will be saved in the working directory as *dcifr_results.csv*
 
 ## Reference
+
++ [deepface](https://github.com/serengil/deepface)
++ [PyQT%](https://pypi.org/project/PyQt5/)
 
 ## License
 
