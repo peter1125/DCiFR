@@ -38,7 +38,7 @@ Two different modes are supported on DCiFR.
 
 
 ## Output
-The results will be saved in the working directory as "dcifr_results.csv"
+The results will be saved in the working directory as *dcifr_results.csv*
 
 ## Reference
 
