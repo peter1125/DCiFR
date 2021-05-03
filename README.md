@@ -18,6 +18,11 @@ pip install PyQt5
 ```
 to get started. 
 
+To fire up the GUI, in terminal type:
+```
+python3 dcifr_code.py
+```
+
 ## Attributes
 
 
