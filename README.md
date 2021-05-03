@@ -43,7 +43,7 @@ The results will be saved in the working directory as *dcifr_results.csv*
 ## Reference
 
 + [deepface](https://github.com/serengil/deepface)
-+ [PyQT%](https://pypi.org/project/PyQt5/)
++ [PyQT5](https://pypi.org/project/PyQt5/)
 
 ## License
 
