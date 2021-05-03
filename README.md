@@ -19,10 +19,12 @@ pip install PyQt5
 to get started. 
 
 
-To fire up the GUI, in terminal type:
+To fire up the GUI, in your terminal type:
 ```
 python3 dcifr_code.py
 ```
+
+Jupyter Notebook version is also available in this repo - *dcifr_code.ipynb*.
 
 ## Attributes
 
