@@ -33,7 +33,7 @@ CSV - dcifr_results.csv
 
 ## License
 
-    DCiFR: Demographic Characteristics in Facial Recognitiion.
+    DCiFR: Demographic Characteristics in Facial Recognition.
     Copyright (C) 2021  Melina Raglin, Eungang (Peter) Choi, Erick Axxe
 
     This program is free software: you can redistribute it and/or modify
