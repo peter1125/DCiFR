@@ -20,13 +20,13 @@ to get started.
 
 ## Attributes
 
-+ Age
 
-+ Race
+Based on faces within images, DCiFR reports results of four attributes: age, emotion, gender, and race. 
 
-+ Gender
-
-+ Emotion
++ Age - Predicted age will fall between 0 - 100. 
++ Emotion - One of seven possible emotions: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral.
++ Gender - Reports either man or woman.
++ Race - The software predicts the probability of falling into one of seven race categories: Asian, black, Indian, Latino/Hispanic, Middle Eastern, or white. The results show the racial category with the highest probability.
 
 
 ## Mode
